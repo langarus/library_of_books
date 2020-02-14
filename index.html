@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div id = "listBooks"></div>
+
+    <button id = "newBook">New Book</button>
+
+    <form id = newBookForm style = "display: none">
+      <label for="title">Title:</label><br>
+      <input type="text" id="title" name="title"><br>
+      <label for="author">Author:</label><br>
+      <input type="text" id="author" name="author"><br>
+      <label for="pages">Pages:</label><br>
+      <input type="text" id="pages" name="pages"><br>
+      <label for="readStatus">Read status:</label><br>
+      <input type="text" id="readStatus" name="readStatus"><br>  
+      <br>
+      <input type="submit" value="Submit">
+    </form> 
+    
+    <table>
+      <thead>
+        <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Pages</th>
+        <th>Read Status</th>
+        <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id = "booksTable">
+
+      </tbody>
+
+      </table>
+      
+
+    
+</body>
+</html>
